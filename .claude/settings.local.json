@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py -m pip install tensorflow numpy pillow)",
+      "Bash(where:*)",
+      "Bash(\"C:\\\\Users\\\\hk\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe\" -m pip install tensorflow numpy pillow)",
+      "Bash(/c/msys64/ucrt64/bin/python3:*)",
+      "Bash(pacman -S:*)",
+      "Bash(cmd.exe /c \"where python\")",
+      "Bash(cmd.exe /c \"pip install torch torchvision pillow numpy\")",
+      "Bash(pacman -Sy:*)",
+      "Bash(winget install:*)",
+      "Bash(\"/c/Users/hk/AppData/Local/Programs/Python/Python312/python.exe\" --version)",
+      "Bash(\"/c/Program Files/Python312/python.exe\" --version)",
+      "Bash(\"/c/Users/hk/AppData/Local/Programs/Python/Python312/python.exe\" -m pip install torch torchvision numpy pillow)",
+      "Bash(\"/c/Users/hk/AppData/Local/Programs/Python/Python312/python.exe\" digit_recognizer.py)"
+    ]
+  }
+}
